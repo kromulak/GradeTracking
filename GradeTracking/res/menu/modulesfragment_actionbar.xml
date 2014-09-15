@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" 
+    tools:context="com.ollienoonan.gradetracker.ModulesFragment" >
+
+    
+    <item android:id="@+id/action_addMenu"
+          android:icon="@drawable/ic_action_new"
+          android:title="@string/action_new"
+          android:orderInCategory="100"
+          yourapp:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+		        android:id="@+id/action_add_assessment"
+		        android:orderInCategory="101"
+		        android:title="@string/action_add_assessment"
+		        yourapp:showAsAction="ifRoom|withText"/>
+		    <item
+		        android:id="@+id/action_add_category"
+		        android:orderInCategory="102"
+		        android:title="@string/action_add_category"
+		        yourapp:showAsAction="ifRoom|withText"/>
+		    <item
+		        android:id="@+id/action_add_exam"
+		        android:orderInCategory="103"
+		        android:title="@string/action_add_exam"
+		        yourapp:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="never"/>
+</menu>

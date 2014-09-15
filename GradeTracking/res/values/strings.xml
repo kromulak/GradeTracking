@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grade Tracker</string>
+    <string name="Percent100">100.00%</string>
+    <string name="codeStr">Code:</string>
+    
+    <string name="action_new">New</string>
+    <string name="action_save">Save</string>
+    <string name="action_help">Help</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_set_as_current_semester">Current Semester</string>
+    
+    <string name="action_add_category">New Category</string>
+    <string name="action_add_exam">Final Exam</string>
+    <string name="action_add_assessment">New Assessment</string>
+    
+    <string name="durationStr">Duration</string>
+    <string name="semestersStr">Semesters</string>
+    <string name="yourNameStr">Your name</string>
+    <string name="titleStr">Title</string>
+    <string name="courseTitleHint">BA in Computer Science</string>
+    <string name="courseCodeHint">CSSE</string>
+    <string name="courseDurationHint">4</string>
+    <string name="courseSemestersHint">2</string>
+    <string name="developerName">Ollie Noonan</string>
+    <string name="moduleSetup_codeHint">CS141</string>
+    <string name="moduleSetup_titleHint">Intro to programming</string>
+    <string name="moduleSetup_minPassLabel">Min Pass:</string>
+    <string name="moduleSetup_minPassValue">40</string>
+    <string name="moduleSetup_goalLabel">Goal: %</string>
+    <string name="moduleSetup_goalHint">80</string>
+    <string name="moduleSetup_finalExamLabel">Final Exam: %</string>
+    <string name="moduleSetup_finalExamHint">70</string>
+    <string name="moduleSetup_caLabel">CA %</string>
+    <string name="moduleSetup_spreadSemestersLabel">Spread across semesters</string>
+    <string name="modulesSetup_marksForFinalLabel">Marks on Final Exam</string>
+    <string name="moduleSetup_qsOnPaperLabel">Questions on paper</string>
+    <string name="moduleSetup_timeInExamLabel">Time in Exam (mins)</string>
+    <string name="moduleSetup_assignmentNameHint">Lab</string>
+    <string name="moduleSetup_generateLabel">Generate</string>
+    <string name="moduleSetup_assignmentsLabel">assignments</string>
+    <string name="moduleSetup_eachWorthLabel">each worth</string>
+    <string name="moduleSetup_labelledLabel">labelled</string>
+    <string name="semester1">Semester 1</string>
+    <string name="semester2">Semester 2</string>
+    <string name="percentSymbol">%</string>
+    <string name="digits_2">##</string>
+    <string name="val_120">120</string>
+    <string name="val_75">75</string>
+    <string name="val_10">10</string>
+    <string name="val_3">3</string>
+    <string name="drawer_open">Navigate</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="operating_systems">
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>Windows Mobile</item>
+    </string-array>
+
+    <string name="title_activity_modules">ModulesActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    
+    <string name="dialog_delete_title">Confirm Delete</string>
+    <string name="dialog_delete_msg">This can not be undone!</string>
+    <string name="dialog_confirm_txt">Confirm</string>
+    <string name="dialog_cancel_txt">Cancel</string>
+    <string name="val_100">100.00</string>
+</resources>

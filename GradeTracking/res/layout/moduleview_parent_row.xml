@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:descendantFocusability="blocksDescendants">
+
+    <Button
+        android:id="@+id/module_detailsview_currentGradeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:minEms="5"
+        android:clickable="false"
+        android:text="@string/Percent100" />
+
+    <TextView
+        android:id="@+id/module_detailsview_assignmentTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/module_detailsview_currentGradeButton"
+        android:layout_alignParentLeft="true"
+        android:text="Assignments"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:paddingRight="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/module_detailsview_maxGradeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/module_detailsview_currentGradeButton"
+        android:layout_toLeftOf="@+id/module_detailsview_currentGradeButton"
+        android:text="@string/Percent100"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:longClickable="true" >
+
+    <Button
+        android:id="@+id/moduleview_child_currentGradeButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:maxEms="4"
+        android:minEms="5"
+        android:text="100.00%" />
+
+    <TextView
+        android:id="@+id/moduleview_child_maxGradeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/moduleview_child_currentGradeButton"
+        android:layout_toLeftOf="@+id/moduleview_child_currentGradeButton"
+        android:maxEms="4"
+        android:maxLines="1"
+        android:minEms="4"
+        android:text="100.00%"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/moduleview_child_titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/moduleview_child_maxGradeTextView"
+        android:layout_alignBottom="@+id/moduleview_child_maxGradeTextView"
+        android:layout_alignParentLeft="true"
+        android:text="Assignment 1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

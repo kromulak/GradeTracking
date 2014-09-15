@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/qEditScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/val_75"
+        android:inputType="numberDecimal"
+        android:maxLength="5" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/qEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="out of"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/qEditMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/val_100"
+        android:inputType="numberDecimal"
+        android:maxLength="5" />
+
+</LinearLayout>

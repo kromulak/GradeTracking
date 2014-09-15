@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/top"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/backgroundblue"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+		</LinearLayout>
+	
+	    <ListView
+	        android:id="@android:id/list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@color/backgroundblue"
+	        android:divider="@android:color/transparent"
+	        android:dividerHeight="5dp"
+	        android:visibility="visible"
+	        tools:listitem="@layout/semesterview_row" >
+	
+	    </ListView>
+	
+	    <RelativeLayout
+	        android:id="@android:id/empty"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="15dp"
+	        android:background="@color/white"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/module_detailsview_weighterrorTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_centerHorizontal="true"
+	            android:text="No Modules!"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/module_detailsview_weighterrorTextView"
+	            android:layout_centerHorizontal="true"
+	            android:gravity="center"
+	            android:padding="15dp"
+	            android:text="You have no modules created for this semester."
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <Button
+	            android:id="@+id/semesterview_createButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/textView2"
+	            android:layout_centerHorizontal="true"
+	            android:text="Create one now" />
+	
+	    </RelativeLayout>
+	
+	</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sroller"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/module_detailsview_codeTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ModuleCode"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/module_detailsview_titleTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#6E82F5"
+            android:gravity="center"
+            android:text="Module Title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/module_detailsview_gradeTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Percent100"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/module_detailsview_weighterrorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="Assessments = ###"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <ExpandableListView
+            android:id="@+id/module_detailsview_examExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ExpandableListView>
+<View style="@style/Divider"/>
+        <ExpandableListView
+            android:id="@+id/module_detailsview_caExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/moduleview_parent_row" >
+        </ExpandableListView>
+
+    </LinearLayout>
+
+</ScrollView>
